@@ -1,0 +1,9 @@
+media/
+state/
+*.bin
+*.exe
+node_modules/
+web-src/dist/
+web/dist/
+__pycache__/
+*.pyc
