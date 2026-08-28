@@ -2,7 +2,18 @@
 
 **人机协作的字幕质量控制工作台**（human + agent subtitle QC workbench）。
 
-把 AI 产出的字幕（含置信度）可视化，让**人实时看视频挑问题、打标记**，标记回流给 agent 定点修复（重对齐、重译、听写、文本核对），人看 diff 与置信度变化，逐步收敛到"全绿"。取名致敬打轴神器 Aegisub（Agent + Aegisub）。
+把 AI 产出的字幕（含置信度）可视化，让**人实时看视频挑问题、打标记**，标记回流给 agent 定点修复（重对齐、重译、听写、文本核对），人看 diff 与置信度变化，逐步收敛到"全绿"。取名致敬打轴神器 Aegisub。
+
+## 名字的小巧思
+
+**Agentisub** = **Agentis** + **sub**：
+
+- **Agent** —— 智能体优先：人不做修复的脏活，打标即委托，agent 负责重对齐/重译/听写/核对
+- **is** —— "the agent **is** the proofreader"：在这个工作台里，agent 就是那个校对者
+- 读作谐 **Aegis**（神盾）—— 与致敬对象 Aegisub 的 Aegis 同源：守护字幕质量之盾
+- **sub** —— subtitle 字幕
+
+一个名字，三层巧思：Agent + 是 + 神盾，刚好包住"agent 校对字幕"的定位。
 
 ![stack](https://img.shields.io/badge/Go-stdlib%20http-00ADD8) ![frontend](https://img.shields.io/badge/Vue3-Vuetify3-42b883) ![agent](https://img.shields.io/badge/agent-Python%20whisper%20%2B%20librosa-3776AB)
 
